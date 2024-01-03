@@ -103,7 +103,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -154,7 +154,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -248,7 +248,7 @@
     background-size: cover;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -293,21 +293,93 @@
         max-width: 100% !important;
     }
 
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
+}
+
+
+.img-icon {
+    inline-size: 50px;
+    margin: 5px;
+}
+
+/*** our skill ***/
+.our-skill {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.text-h1 {
+    padding: 30px;
+    text-align: center;
+}
+
+.du-lieu {
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 1200px;
+    height: 50px;
+    padding: 5px;
+}
+
+#du-lieu1 {
+    background-color: red;
+    width: 1000px;
+    height: 50px;
+    margin: 30px;
+}
+
+#du-lieu2 {
+    background-color: yellow;
+    width: 715px;
+    height: 50px;
+    margin: 30px;
+}
+
+#du-lieu3 {
+    background-color: rgb(54, 44, 235);
+    width: 429px;
+    height: 50px;
+    margin: 30px;
+}
+
+#du-lieu1 div {
+    float: left;
+}
+
+#du-lieu2 div {
+    float: left;
+}
+
+#du-lieu3 div {
+    float: left;
+}
+
+#phan-tram1 {
+    padding-left: 84%;
+}
+
+#phan-tram2 {
+    padding-left: 81%;
+}
+
+#phan-tram3 {
+    padding-left: 45%;
 }
 
 
@@ -327,19 +399,19 @@
         max-width: 100% !important;
     }
 
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -403,19 +475,19 @@
         max-width: 100% !important;
     }
 
-    .quote-text  {
+    .quote-text {
         padding-right: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .quote-text  {
+    .quote-text {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .quote-text  {
+    .quote-text {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -466,45 +538,45 @@ Group Diary
     padding-top: 90px;
     padding-bottom: 90px;
     /* border-bottom: 3px dotted #eee; */
-  }
-  
-  #week5 .section-heading {
+}
+
+#week5 .section-heading {
     margin-bottom: 60px;
-  }
-  
-  #week5 .item .down-content {
+}
+
+#week5 .item .down-content {
     padding-top: 30px;
     position: relative;
     z-index: 3;
     background-color: #fff;
-  }
-  
-  #week5 .item .down-content h4 {
+}
+
+#week5 .item .down-content h4 {
     font-size: 22px;
     color: #2a2a2a;
     font-weight: 700;
     margin-bottom: 8px;
-  }
-  
-  #week5 .item .down-content span {
+}
+
+#week5 .item .down-content span {
     font-size: 18px;
     color: #a1a1a1;
     font-weight: 500;
     display: block;
-  }
-  
-  #week5 .item .down-content ul.stars {
+}
+
+#week5 .item .down-content ul.stars {
     position: absolute;
     right: 0;
     top: 30px;
-  }
-  
-  #week5 .item .down-content ul.stars li {
+}
+
+#week5 .item .down-content ul.stars li {
     display: inline;
     font-size: 13px;
-  }
-  
-  #week5 .item .thumb .hover-content {
+}
+
+#week5 .item .thumb .hover-content {
     position: absolute;
     z-index: 2;
     text-align: center;
@@ -513,24 +585,24 @@ Group Diary
     opacity: 0;
     visibility: hidden;
     transition: all .5s;
-  }
-  
-  #week5 .item .thumb:hover .hover-content {
+}
+
+#week5 .item .thumb:hover .hover-content {
     bottom: 30px;
     opacity: 1;
     visibility: visible;
-  }
-  
-  #week5 .item .thumb {
+}
+
+#week5 .item .thumb {
     position: relative;
-  }
-  
-  #week5 .item .thumb .hover-content ul li {
+}
+
+#week5 .item .thumb .hover-content ul li {
     display: inline;
     margin: 0px 10px;
-  }
-  
-  #week5 .item .thumb .hover-content ul li a {
+}
+
+#week5 .item .thumb .hover-content ul li a {
     width: 50px;
     height: 50px;
     text-align: center;
@@ -538,33 +610,33 @@ Group Diary
     display: inline-block;
     color: #2a2a2a;
     background-color: #fff;
-  }
-  
-  
-  #week5 .owl-nav {
+}
+
+
+#week5 .owl-nav {
     text-align: center;
     position: absolute;
     width: 100%;
     top: 40%;
     transform: translateY(-25px);
-  }
-  
-  #week5 .owl-dots {
+}
+
+#week5 .owl-dots {
     display: none;
-  }
-  
-  #week5 .owl-nav .owl-prev {
+}
+
+#week5 .owl-nav .owl-prev {
     position: absolute;
     left: -80px;
     outline: none;
-  }
-  
-  #week5 .owl-nav .owl-prev span,
-  #week5 .owl-nav .owl-next span {
+}
+
+#week5 .owl-nav .owl-prev span,
+#week5 .owl-nav .owl-next span {
     opacity: 0;
-  }
-  
-  #week5 .owl-nav .owl-prev:before {
+}
+
+#week5 .owl-nav .owl-prev:before {
     display: inline-block;
     font-family: 'FontAwesome';
     color: #2a2a2a;
@@ -576,33 +648,33 @@ Group Diary
     background-color: transparent;
     line-height: 48px;
     border: 1px solid #2a2a2a;
-  }
-  
-  #week5 .owl-nav .owl-prev {
+}
+
+#week5 .owl-nav .owl-prev {
     opacity: 0.75;
     transition: all .5s;
-  }
-  
-  #week5 .owl-nav .owl-prev:hover {
+}
+
+#week5 .owl-nav .owl-prev:hover {
     opacity: 1;
-  }
-  
-  #week5 .owl-nav .owl-next {
+}
+
+#week5 .owl-nav .owl-next {
     opacity: 0.75;
     transition: all .5s;
-  }
-  
-  #week5 .owl-nav .owl-next:hover {
+}
+
+#week5 .owl-nav .owl-next:hover {
     opacity: 1;
-  }
-  
-  #week5 .owl-nav .owl-next {
+}
+
+#week5 .owl-nav .owl-next {
     outline: none;
     position: absolute;
     right: -85px;
-  }
-  
-  #week5 .owl-nav .owl-next:before {
+}
+
+#week5 .owl-nav .owl-next:before {
     display: inline-block;
     font-family: 'FontAwesome';
     color: #2a2a2a;
@@ -614,18 +686,18 @@ Group Diary
     background-color: transparent;
     line-height: 48px;
     border: 1px solid #2a2a2a;
-  }
-  
-  #week5 section {
+}
+
+#week5 section {
     margin: 20px;
-  }
-  
-  #week5 form {
+}
+
+#week5 form {
     display: grid;
     gap: 10px;
-  }
-  
-  #week5 button {
+}
+
+#week5 button {
     padding: 10px;
     margin-top: 10px;
     background-color: rgba(61, 60, 60, 0.447);
@@ -633,30 +705,30 @@ Group Diary
     border: none;
     cursor: pointer;
     font-size: 16px;
-  }
-  
-  #week5 button:hover {
+}
+
+#week5 button:hover {
     color: #2a2a2a;
     background-color: #DDDDDD;
-  }
-  
-  #week_5 td,
-  th {
+}
+
+#week_5 td,
+th {
     border: 2px solid rgb(45, 44, 44);
     padding: 10px;
     text-align: left;
-  }
+}
 
 
-  /* Style the tab */
+/* Style the tab */
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
-  }
-  
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
     background-color: inherit;
     float: left;
     border: none;
@@ -664,25 +736,25 @@ Group Diary
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-  }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
     background-color: #ddd;
-  }
-  
-  /* Create an active/current tablink class */
-  .tab button.active {
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
     background-color: #ccc;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
+}
+
+/* Style the tab content */
+.tabcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-  }
+}
 
 
 /*** Testimonial ***/
@@ -709,6 +781,7 @@ Group Diary
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -716,6 +789,7 @@ Group Diary
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -764,15 +838,15 @@ Group Diary
 }
 
 /*** project ***/
-.content{
+.content {
     margin: auto 50px;
 }
 
-.content h3{
+.content h3 {
     margin-bottom: 50px;
 }
 
-.required{
+.required {
     margin-top: 20px;
 }
 
@@ -782,7 +856,7 @@ Group Diary
 
 .nav-tabs {
     background-color: #f8f9fa;
-    border-bottom: 2px solid #dee2e6; 
+    border-bottom: 2px solid #dee2e6;
 }
 
 .nav-tabs .nav-item {
@@ -790,35 +864,36 @@ Group Diary
 }
 
 .nav-tabs .nav-link {
-    color: #495057; 
-    border: 2px solid #dee2e6; 
+    color: #495057;
+    border: 2px solid #dee2e6;
     border-radius: 4px 4px 0 0;
 }
 
 .nav-tabs .nav-link.active {
-    color: #fff; 
+    color: #fff;
     background-color: #AB7442;
-    border: 1px solid #AB7442; 
+    border: 1px solid #AB7442;
     border-bottom-color: transparent;
 }
 
 .bordered-table-container {
     border: 2px solid #dee2e6;
-    border-radius: 4px; 
-    overflow: hidden; 
+    border-radius: 4px;
+    overflow: hidden;
     margin-top: 20px;
 }
 
 .bordered-table {
-    width: 100%; 
-    border-collapse: collapse; 
+    width: 100%;
+    border-collapse: collapse;
     border: 2px solid #dee2e6;
     margin-bottom: 0px;
 }
 
-.bordered-table th, .bordered-table td {
-    border: 2px solid #dee2e6; 
-    padding: 8px; 
+.bordered-table th,
+.bordered-table td {
+    border: 2px solid #dee2e6;
+    padding: 8px;
 }
 
 .bordered-table tr:last-child td {
@@ -826,29 +901,80 @@ Group Diary
 }
 
 .design-list {
-    list-style: none; 
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.design-list-item {
+.design-list-item,
+.implement-list-item {
     cursor: pointer;
     padding: 8px;
     border-bottom: 1px solid #dee2e6;
     position: relative;
 }
 
-.design-list-item:hover {
-    background-color: #f8f9fa; 
+.implement-list-item a {
+    color: #353535;
+
 }
 
-.design-content {
+.design-list-item:hover,
+.implement-list-item:hover {
+    background-color: #f8f9fa;
+}
+
+.design-content,
+.implement-content {
     display: none;
     position: relative;
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa;
     padding: 10px;
-    border: 1px solid #dee2e6; 
-    border-radius: 4px; 
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container a {
+    display: block;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+.image-container button {
+    color: #fff;
+    background-color: #AB7442;
+    border: 1px solid #AB7442;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#btn_contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#btn_contact a {
+    align-items: center;
+    margin-left: 150px;
+    justify-content: center;
+}
+
+#btn_contact a:last-child {
+    margin-left: 290px;
+}
+
+.image-container button:hover {
+    background-color: #d37d2d;
+    border: 1px solid #d37d2d;
 }
 
 
@@ -860,19 +986,19 @@ Group Diary
         max-width: 100% !important;
     }
 
-    .contact-text  {
+    .contact-text {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .contact-text  {
+    .contact-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .contact-text  {
+    .contact-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
