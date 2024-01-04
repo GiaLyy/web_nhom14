@@ -1065,3 +1065,24 @@ th {
 .footer .copyright a:hover {
     color: var(--primary);
 }
+/* chuyen mau nen  */
+body {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.light {
+    background-color: #fff;
+    color: #000;
+}
+.light:hover{
+	color: black;
+}
+.dark:hover{
+	color: black;
+}
+
+.dark {
+    background-color: #9c9b97;
+    color: #fff;
+}
+/* ket thuc chuyen mau  */
