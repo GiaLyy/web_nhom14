@@ -837,6 +837,7 @@ th {
     color: var(--dark);
 }
 
+
 /*** project ***/
 .content {
     margin: auto 50px;
@@ -979,6 +980,246 @@ th {
 
 
 
+/*** Style guide ***/
+.container_styleGuide {
+    display: flex;
+    margin: 0;
+    height: auto;
+}
+
+.container_styleGuide .left-panel {
+    flex: 3;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.container_styleGuide .right-panel {
+    flex: 7;
+    padding: 30px;
+    margin-top: -40px;
+    margin-left: -50px;
+
+}
+
+.container_styleGuide .left-panel ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+
+.container_styleGuide .left-panel ul li {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.container_styleGuide .left-panel ul li:hover {
+    background-color: #AB7442;
+    color: #fff;
+}
+
+.container_styleGuide .right-panel .content {
+    display: none;
+    background-color: #fcfcfc;
+}
+
+.container_styleGuide .right-panel .content.active {
+    display: block;
+}
+
+.container_styleGuide .right-panel .content .web-group {
+    color: #333;
+    padding: 20px;
+    margin-top: 20px;
+    /* font-size: 20px; */
+    /* display: flex; */
+}
+
+.container_styleGuide .right-panel .content .layout {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.layout div {
+    padding: 10px 50px;
+    border: 1px solid #9c9d9e;
+    width: 300px;
+    text-align: center;
+}
+
+.container_styleGuide .right-panel .content .project {
+    color: #333;
+    padding: 20px;
+}
+
+#content-color_palette .web,
+#content-image .web {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content-color_palette .web div {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.content .web .color1 {
+    background-color: #AB7442;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.content .web .color2 {
+    background-color: #353535;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.content .web .color3 {
+    background-color: #555;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.content .web .color4 {
+    background-color: #F5F5F5;
+    border: 1px solid #495057;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+}
+
+.content .web .color6 {
+    background-color: #007BFF;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.content .web .color5 {
+    background-color: #F0BC11;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.content .web .color7 {
+    background-color: rgb(204, 255, 255);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.content .web .color8 {
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.content .web .color9 {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.content .file_directory {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .file_directory .web {
+    margin-right: 50px;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.content .file_directory .project{
+    margin-top: 20px;
+}
+
+.web .img {
+    text-align: center;
+    background-color: #cfc4c4;
+    color: #333;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.web-group .img_home1 {
+    width: 400px;
+    height: 200px;
+}
+
+.web-group .img_home2 {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.web-group .img_about {
+    width: 280px;
+    height: 400px;
+}
+
+.web-group .img_result {
+    width: 260px;
+    height: 260px;
+}
+
+.web-group .img_group_diary {
+    width: 380px;
+    height: 200px;
+}
+
+.project .img_avatar {
+    width: 150px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.project .img_work {
+    width: 300px;
+    height: 100px;
+}
+
+.project .img_explore {
+    width: 150px;
+    height: 180px;
+    border-radius: 6px;
+}
+
+.project .img_blog1 {
+    width: 450px;
+    height: 80px;
+    border-radius: 6px;
+}
+
+.project .img_blog2 {
+    width: 150px;
+    height: 80px;
+}
+
+.project .img_contact {
+    width: 400px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+
 
 /*** Contact ***/
 @media (min-width: 992px) {
@@ -1065,6 +1306,7 @@ th {
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
 /* chuyen mau nen  */
 body {
     transition: background-color 0.3s ease-in-out;
@@ -1074,15 +1316,30 @@ body {
     background-color: #fff;
     color: #000;
 }
-.light:hover{
-	color: black;
+
+.light:hover {
+    color: black;
 }
-.dark:hover{
-	color: black;
+
+.dark:hover {
+    color: black;
 }
 
 .dark {
     background-color: #9c9b97;
     color: #fff;
 }
+
 /* ket thuc chuyen mau  */
+
+/* technical */
+
+.terminal-code {
+    border: 2px solid;
+    width: 250px;
+    margin-left: 100px;
+    text-align: center;
+}
+.buoc {
+    margin-left: 50px;
+}
